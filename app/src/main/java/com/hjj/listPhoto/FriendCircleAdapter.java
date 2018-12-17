@@ -24,14 +24,12 @@ import ch.ielse.view.imagewatcher.ImageWatcher;
 public class FriendCircleAdapter extends RecyclerView.Adapter<FriendCircleAdapter.WordAndImagesViewHolder> {
 
     private Context mContext;
-
     private LayoutInflater mLayoutInflater;
-
     private List<FriendCircleBean> mFriendCircleBeans;
-
     private RequestOptions mRequestOptions;
     private DrawableTransitionOptions mDrawableTransitionOptions;
     private ImageWatcher mImageWatcher;
+
 
     public interface OnImageClickListener {
         void onImageClick(int position, int index);
